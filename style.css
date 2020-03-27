@@ -1,0 +1,622 @@
+@import url("https://use.typekit.net/gos4adb.css");
+@import url("https://use.typekit.net/ixo6fry.css");
+
+* {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    min-height: 100%;
+}
+ 
+body {
+    font-family: 'Roboto',
+    sans-serif;
+    background-color: #F5F5F5;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-areas: 
+        "navigate navigate navigate"
+        "grayb grayb grayb"
+        "blockone blocktwo blockthree"
+        "blueb blueb blueb"        
+        "colone coltwo colthree"
+        "colfour colfive colsix"
+        "colseven coleight colnine"
+        "colten  coleleven coltwelve"
+        "colthirteen colfourteen colfifteen"        
+        "footer footer footer";
+}
+
+/* Navigation Info */
+
+.nav {
+    grid-area: navigate;
+    background-color: #706D6D; 
+    color: #FCFCFC;
+    height: 40px;
+}
+.nav ul {
+    text-align: center;
+}
+
+.nav li {
+    display: inline-block;
+    margin: 10px 60px 75px;
+}
+
+
+a {
+    color: #FCFCFC;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-style: normal;
+}
+
+/* Gray Transparent Bar */
+.grayb  {
+    grid-area: grayb;
+    background-color: #706D6D;
+    height: 90px;
+    opacity: 0.5;
+    margin-bottom: 60px;
+}
+
+/* Left Green Box */
+.blockone {
+    display: grid;
+    background-color: #03A678; 
+    height: 750px;
+    color: #FCFCFC;
+    text-align: center;
+    margin-top: -150px;
+}
+
+.try-this {
+    width: 30%;
+    position: relative;
+    top: 110px;
+    left: 285px;
+} 
+
+.dyk {
+    margin: 100px 0px 0px 0px;
+    font-family: trajan-pro-3, serif;
+    font-style: normal;
+    text-decoration: none; 
+    font-weight: 100;
+    text-shadow: 0px 1px 1px #333;
+}
+
+.op {
+    margin: 0px 0px 100px 0px;
+    line-height: 1.5;
+    font-family: trajan-pro-3, serif;
+    font-style: normal;
+    font-weight: 100;
+    color: black; 
+    text-shadow: 0px 1px 1px #bbb;
+}
+
+.children {
+    position: relative;
+    left: 225px;
+    bottom: 100px;
+    border: 1px solid white; 
+}
+
+.opp {
+    position: relative;
+    line-height: 1.5;
+    bottom: 95px;
+    font-family: open-sans, sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    text-shadow: 0px 1px 1px #333;
+}
+.mag {
+    position:relative;
+    top:1px;
+    left:5px;
+}
+
+/* Middle Jeans For Jobs Box */
+.blocktwo {
+    display: grid;
+    color: white;
+    margin-top: -150px;
+}
+
+h1 {
+    position: absolute;
+    top: 150px;
+    left: 695px;
+    width: 100%;
+    font-family: trajan-pro-3, serif;
+    font-style: normal;
+    font-weight: 100;
+    text-shadow: 0px 2px 3px #333;
+    color: white;
+    }
+
+
+.jp {
+    position: absolute;
+    top: 210px;
+    left: 695px;
+    width: 100%;
+    line-height: 1.40;
+    font-family: open-sans, sans-serif;
+    font-size: 16px;
+    color: #DFDEDE;
+    text-shadow: 0px 2px 3px #333;
+}
+
+.boxbike {
+    width: 100%;
+}
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+/* Right Donate Now Box */
+.blockthree {
+    display: grid;
+    position: relative;
+    color: black;
+    margin-top: -150px;
+}
+
+.dn {
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    width: 100%;
+    color: #F23D3D;
+    font-family: open-sans, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    text-shadow: 0px 1px 1px #555;    
+}
+
+.dp {
+    position: absolute;
+    top: 180px;
+    left: 10px;
+    width: 100%;
+    font-family: open-sans, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.dd {
+    position: absolute;
+    top: 210px;
+    left: 25px;
+    width: 100%;
+    font-family: open-sans, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.jeans {
+    position:relative;
+    left: 35px;
+    top: 500px;
+}
+
+.xp {
+    position: absolute;
+    top: 300px;
+    text-align: center;
+    margin: -20px 0px 0px -200px;
+    width: 100%;
+    font-family: open-sans, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    color: #035AA6;
+    line-height: 2;
+}
+
+
+.mp {
+    position: absolute;
+    bottom: 290px;
+    left: 18px;
+    width: 100%;
+    color: #03A678;
+    font-family: open-sans, sans-serif;
+    font-style: normal;
+ }
+
+
+.amount {
+    position: absolute;
+    top: 160px;
+    line-height: 50px;
+    font-family: open-sans, sans-serif;
+    font-size: 14px;
+    left: 295px;
+    width: 100%;
+    }
+
+.credit-card {
+    width: 360px;
+    height: 400px;
+    margin: 210px 0px 0px 100px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 1px 2px 3px 0 rgba(0,0,0,.10);
+}
+
+.form-header {
+    height: 60px;
+    padding: 20px 30px 0;
+    border-bottom: 1px solid #e1e8ee;
+}
+ 
+.form-body {
+    padding: 30px 30px 20px;
+}
+
+.title {
+    font-size: 18px;
+    margin: 0;
+    color: #5e6977;
+}
+
+.card-number,
+.cvv-input input,
+.month select,
+.year select {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 14px;
+}
+ 
+.card-number,
+.month select,
+.year select {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 14px;
+}
+ 
+.card-number,
+.cvv-details,
+.cvv-input input,
+.month select,
+.year select {
+    opacity: .7;
+    color: #86939e;
+}
+
+.card-number {
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+}
+
+.month select,
+.year select {
+    width: 145px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+    background-position: 85% 50%;
+}
+ 
+.month select {
+    float: left;
+}
+ 
+.year select {
+    float: right;
+}
+
+.cvv-input input {
+    float: left;
+    width: 145px;
+    height: 40px;
+    padding-left: 20px;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+    background: #fff;
+}
+ 
+.cvv-details {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+    float: right;
+    margin-bottom: 30px;
+}
+ 
+.cvv-details p {
+    margin-top: 6px;
+}
+
+.paypal-btn,
+.proceed-btn {
+    cursor: pointer;
+    font-size: 13px;
+    width: 100%;
+    border-radius: 6px;
+}
+ 
+
+.proceed-btn {
+    margin-bottom: 10px;
+    background: #03A678;
+}
+ 
+ 
+.proceed-btn {
+    color: #fff;
+    text-decoration: none;
+}
+ 
+.paypal-btn {
+    color:white;
+    text-decoration: none;
+}
+ 
+.paypal-btn {
+    padding-right: 95px;
+    background: url('images/PayPal.png') no-repeat 65% 56% #009cde;
+    border-radius: 6px;
+}
+
+h4  {
+    text-align: left;
+}
+
+h2 {
+    font-family: trajan-pro-3, serif;
+    font-style: normal;
+    font-weight: 100;
+}
+
+/* Blue Transparent Bar */
+.blueb  {
+    grid-area: blueb;
+    background-color: #035AA6;
+    height: 90px;
+    opacity: 0.5;
+    margin-top: -93px;
+}
+
+/* Start of Colored Columns */
+.colone {
+    justify-self: end;
+    display: grid;
+    background-color: #035AA6;
+    color: #FCFCFC;
+    text-shadow: 0px 2px 3px #333;
+    text-align: center;
+    vertical-align: center;
+    line-height: 190px;
+    height: 200px;
+    width: 350px;
+    margin: 25px 25px 0px 0px;
+}
+
+.coltwo {
+    display: grid;
+    margin: 25px 0px 0px 0px;
+    
+}
+
+.colthree {
+    justify-self: start;
+    display: grid;
+    font-family: open-sans, sans-serif;
+    font-size: 14px;
+    margin: 25px 0px 0px -300px;
+   }
+
+
+.colfour {
+    justify-self: end;
+    display: grid;
+    background-color: #706D6D;
+    color: #FCFCFC;
+    text-align: center;
+    text-shadow: 0px 2px 3px #333;
+    vertical-align: center;
+    line-height: 190px;
+    height: 200px;
+    width: 350px;
+    margin: 25px 25px 0px 0px;
+}
+.colfive {
+    display: grid;
+    margin: 25px 0px 0px 0px;
+    
+}
+.colsix {
+    justify-self: start;
+    display: grid;
+    font-family: open-sans, sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    margin: 25px 25px 0px -400px;
+}
+.colseven {
+    justify-self: end;
+    display: grid;
+    background-color: #F23D3D;
+    color: #FCFCFC;
+    text-align: center;
+    text-shadow: 0px 2px 3px #333;
+    vertical-align: center;
+    line-height: 190px;
+    height: 200px;
+    width: 350px;
+    margin: 25px 25px 0px 0px;
+}
+.coleight {
+    display: grid;
+    margin: 25px 0px 0px 0px;
+}
+.colnine {
+    justify-self: start;
+    display: grid;
+    font-family: open-sans, sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    margin: 25px 25px 0px -200px;
+}
+.colten {
+    justify-self: end;
+    display: grid;
+    background-color: #03A678;
+    color: #FCFCFC;
+    text-align: center;
+    text-shadow: 0px 2px 3px #333;
+    vertical-align: center;
+    line-height: 190px;
+    height: 200px;
+    width: 350px;
+    margin: 25px 25px 0px 0px;
+}
+
+.coleleven {
+    display: grid;
+    margin: 25px 0px 0px 0px;
+}
+
+.coltwelve {
+    justify-self: start;
+    display: grid;
+    font-family: open-sans, sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    margin: 25px 25px 0px -400px;
+}
+
+.colthirteen {
+    justify-self: end;
+    display: grid;
+    background-color: #035AA6;
+    color: #FCFCFC;
+    text-align: center;
+    text-shadow: 0px 2px 3px #333;
+    vertical-align: center;
+    line-height: 190px;
+    height: 200px;
+    width: 350px;
+    margin: 25px 25px 0px 0px;
+}
+
+.colfourteen{
+    display: grid;
+    margin: 25px 0px 0px 0px;
+}
+
+.colfifteen {
+    justify-self: start;
+    display: grid;
+    font-family: open-sans, sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    margin: 25px 25px 0px -300px;
+}
+
+/* Footer */
+.foot {
+    grid-area: footer;
+    display: grid;
+    position: relative;
+    top: 20px;
+    background-color: #706D6D;
+    box-sizing: border-box;
+    width: 100%;
+    color: #FCFCFC;
+    text-align: center;
+    padding: 0px 5px 0px 5px;
+    height: 125px;
+    overflow: hidden;
+     
+}
+
+.foot .footer-left,
+.foot .footer-middle,
+.foot .footer-right {
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+.f-logo {
+    width: 30%;
+    position: relative;
+    top: 20px;
+}
+
+.f-contact {
+    display: inline-block;
+    line-height: 1.75;
+    text-decoration: none;
+    width: 60%;
+    text-align: left;
+    position: relative;
+    bottom: 80px;
+    font-size: 12px;
+    font-family: open-sans, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    text-shadow: 0px 2px 3px #333;
+}
+
+.f-copyright {
+    display: inline-block;
+    width: 45%;
+    position: relative;
+    bottom: 175px;
+    margin-left: 200px;
+    font-family: open-sans, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    text-shadow: 0px 2px 3px #333;
+}
+
+.f-social {
+    display: inline-block;
+    text-align: right;
+    position: relative;
+    bottom: 160px; 
+}
+
+
+
+
+
